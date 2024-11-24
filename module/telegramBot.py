@@ -1,8 +1,8 @@
 import requests
 
 class Message:
-    TOKEN = "5712332102:AAFsFwOcE08hjVpEk7g1IJ5Rih9VQKoUEnU"
-    CHATID = -511328095
+    TOKEN = "0"
+    CHATID = 0
 
     def sendMessage(msg):
         url = f'https://api.telegram.org/bot{Message.TOKEN}/sendMessage?chat_id={Message.CHATID}&text={msg}'
